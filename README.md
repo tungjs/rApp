@@ -1,3 +1,41 @@
+
+#Notes
+
+### Chrome 
+
+- Extension để Debug ReactApp: [Link](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related)
+
+### Visual Studio 
+
+- Sublime Babel
+- Reactjs code snipets
+
+
+### Tips
+
+- Use `public` Folder : `process.env.PUBLIC_URL`
+
+```
+render() {
+  return <img src={process.env.PUBLIC_URL + '/img/logo.png'} />;
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
