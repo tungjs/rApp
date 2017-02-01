@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Button from './Button.js'
-import logo from './logo.svg';
-import './App.css';
+import Button from '../components/Button'
+import logo from '../../public/images/logo.svg';
+import '../../public/styles/App.css';
 
 console.log(logo);
 
