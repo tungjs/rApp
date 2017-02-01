@@ -10,6 +10,20 @@
 - Sublime Babel
 - Reactjs code snipets
 
+### Structure
+
+- `build` : Thư mục build Production 
+- `public`: Thư mục chứa Images, CSS, JS 3rd...
+- `src`   : Source App
+  - `actions` : Các hành động trong App được viết tại đây. (Lưu ý: Ko viết View tại đây)
+  - `components` : Viết các component được dùng trong App, bao gồm convert các plugins 3rd sẽ dùng trong App. (Wrap component)
+  - `constants` : Khai báo các Constants
+  - `containers` : Xử lý với Redux
+  - `reducers` : 
+  - `utils` : Các utils
+- `test` : Test
+
+
 
 ### Tips
 
